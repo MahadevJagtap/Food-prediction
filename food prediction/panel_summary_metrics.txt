@@ -1,0 +1,35 @@
+MODEL EVALUATION:
+Mean Absolute Error: 19.10 This means: On average, the model is off by about 19 servings for each prediction.
+
+Example: If the real demand for samosas is 100, the model might predict 81 or 119.
+
+The lower this number, the better.
+R^2 Score: 0.39
+his is like a score out of 1 (or 100%).
+
+A value of 0.39 means the model explains about 39% of the variation in demand.
+
+Closer to 1.0 (or 100%) means highly accurate. 0.39 is decent but there's room to improve.
+
+PREDICTION SUMMARY (SAMPLE DAY):
+Coffee --> Predicted: 144, Historical Avg: 111 | Prepare ~33 extra
+Tea --> Predicted: 111, Historical Avg: 113 | Reduce by ~2
+Paratha --> Predicted: 98, Historical Avg: 67 | Prepare ~31 extra
+Curd Rice --> Predicted: 88, Historical Avg: 69 | Prepare ~19 extra
+Rice --> Predicted: 88, Historical Avg: 69 | Prepare ~19 extra
+Paneer Curry --> Predicted: 86, Historical Avg: 68 | Prepare ~18 extra
+Rasam --> Predicted: 81, Historical Avg: 66 | Prepare ~15 extra
+Rajma --> Predicted: 80, Historical Avg: 70 | Prepare ~10 extra
+Sambar --> Predicted: 77, Historical Avg: 69 | Prepare ~8 extra
+Chapati --> Predicted: 75, Historical Avg: 66 | Prepare ~9 extra
+Dosa --> Predicted: 75, Historical Avg: 57 | Prepare ~18 extra
+Vada --> Predicted: 74, Historical Avg: 54 | Prepare ~20 extra
+Chole --> Predicted: 71, Historical Avg: 66 | Prepare ~5 extra
+Uttapam --> Predicted: 68, Historical Avg: 53 | Prepare ~15 extra
+Upma --> Predicted: 65, Historical Avg: 52 | Prepare ~13 extra
+Pongal --> Predicted: 63, Historical Avg: 48 | Prepare ~15 extra
+Idly --> Predicted: 53, Historical Avg: 47 | Prepare ~6 extra
+
+NOVELTY: Unlike traditional demand forecasting which uses only past demand values,
+this system considers external factors like weekday, weather, festival, and attendance
+to make more dynamic and adaptable predictions.
